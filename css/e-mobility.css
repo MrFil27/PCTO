@@ -1,0 +1,42 @@
+:root{
+    --sections: #f7ba70;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.start{
+    background: url("../images/e-mobility-cars.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.start .super-title{
+    position: absolute;
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+    background: var(--sections);
+}
+.start .super-title h1{
+    padding: 20px;
+    padding-left: 150px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.start .content img{
+    margin-top: 100px;
+    margin-left: 700px;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.first{
+    background: #fff;
+    height: 100vh;
+}

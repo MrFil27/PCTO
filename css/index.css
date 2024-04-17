@@ -1,0 +1,185 @@
+:root{
+    --sections: #f7ba70;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.start{
+    height: 100vh;
+    background: url("../images/quadro-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+.start .box{
+    display: flex;
+    flex-direction: column;
+}
+.start .box .titles{
+    position: absolute;
+    margin-top: 130px;
+    width: auto;
+    height: auto;
+    background: var(--sections);
+}
+.start .box .title{
+    margin-left: 70px;
+    padding: 20px;
+    font-size: 50px;
+    color: #f1f1f1;
+}
+.start .subtitles{
+    font-size: 30px;
+    margin-top: 320px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+.start .subtitles p span{
+    font-weight: normal;
+    font-style: italic;
+}
+.start .sector{
+    margin-top: 170px;
+    margin-left: 300px;
+}
+.start .sector .box{
+    margin-top: 20px;
+    background-color: #737373;
+    border-radius: 10px;
+}
+.start .sector .content{
+    padding: 20px;
+}
+.start .sector h1{
+    font-size: 40px;
+}
+.start .sector p{
+    font-size: 30px;
+}
+
+/* ===== Firts ===== */
+.first{
+    height: auto;
+    background: var(--sections);
+    padding: 40px;
+}
+.first .title{
+    padding: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.first .box{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.first .box .image{
+    padding-left: 50px;
+}
+.first .box .image img{
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+}
+.first .box p span{
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* ===== SECOND ===== */
+.second{
+    background: var(--sections);
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.second .content{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+.second .content .title{
+    text-decoration: underline;
+    font-size: 50px;
+}
+.second .content .text{
+    padding-top: 60px;
+    font-size: 30px
+}
+.second .content .text .arrow-right{
+    color: #737373;
+}
+.second .images img{
+    display: flex;
+    padding-right: 20px;
+    flex-direction: column;
+    height: 300px;
+    width: auto;
+    border-radius: 5%;
+}
+.second .row{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+/* ===== THIRD ===== */
+.third{
+    padding: 40px
+}
+.third .title{
+    text-decoration: underline;
+    font-size: 50px;
+}
+.third .text{
+    font-size: 30px;
+}
+.third .text .arrow-right{
+    color: #737373;
+}
+.third .text .category{
+    text-decoration: bold;
+}
+
+/* ===== OTHER PROJECTS ===== */
+.other{
+    padding: 40px;
+}
+.other .title{
+    text-decoration: underline;
+    font-size: 40px;
+}
+.other .links{
+    display: flex;
+    flex-direction: rows;
+}
+.other .links .project p{
+    font-size: 20px;
+}
+.other .links .project a{
+    color: #111;
+    text-decoration: none;
+}
+.other .links .project a:hover{
+    text-decoration: underline;
+}
+.other .links .project.one img{
+    width: 500px;
+    height: auto;
+}
+.other .links .project.two{
+    padding-left: 180px;
+}
+.other .links .project.two img{
+    width: 500px;
+    height: auto;
+}
